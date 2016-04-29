@@ -1,0 +1,45 @@
+body{
+
+  background-color:rgb(133,204, 223);
+
+
+}
+
+
+p{
+    color:black;
+    text-shadow: 2px 2px #ffffff;
+    font-weight: 5;
+
+
+}
+
+
+input[type=range] {
+
+    -webkit-appearance: none;
+    background-color: silver;
+    width: 25vh;
+    height:20px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+     -webkit-appearance: none;
+    background-color: #666;
+    opacity: 0.5;
+    width: 10px;
+    height: 26px;
+}
+
+#toolbar{
+    color:black;
+    text-shadow: 2px 2px #ffffff;
+    font-weight: 5;
+float: right;
+top:5vh;
+position: absolute;
+left:80vh;
+width:25vh;
+
+
+}
